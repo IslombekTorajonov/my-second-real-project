@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h6{
+    font-family: Oleo Script Swash Caps;
+}
+h5{
+    font-family: Oleo Script Swash Caps;
+}
+.brand-logo{
+    margin-left: 50px;
+}
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+.carousel{
+    width: 100%;
+    height: 500px;
+}
+.savat{
+    margin-top: 0px;
+}
+.matres{
+    font-family: Oleo Script Swash Caps;
+    transform: translateY(90deg);
+}
+.sofa{
+    font-family: Oleo Script Swash Caps;
+
+}
+.feature{
+    font-family: Oleo Script Swash Caps;
+
+}
+.card{
+    box-shadow: none;
+}
+
+
+@media (max-width:600px) {
+    .brand-logo{
+        margin-left: 0px;
+    }
+    .matres{
+        font-size: 30px;
+    }
+    .sofa{
+        font-size: 20pxs;
+    }
+}
